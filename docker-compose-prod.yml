@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  runner:
+    environment:
+      - ORGANIZATION=${GITHUB_ORGANIZATION}
+      - ACCESS_TOKEN=${GITHUB_ACCESS_TOKEN}
