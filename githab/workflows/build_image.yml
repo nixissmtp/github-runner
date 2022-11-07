@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: slitidd/chairlift-back-dokr
+          tags: simple2b/githab-runner
